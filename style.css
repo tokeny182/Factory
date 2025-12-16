@@ -1,0 +1,87 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #444;
+}
+
+/* Progress bar */
+#progress {
+  width: 300px;
+  height: 30px;
+  border: 2px solid #333;
+  margin: 20px auto;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  transition: width 0.5s ease;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #555;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* Upgrade button */
+.upgrade {
+  background: gray;
+}
+
+.upgrade.active {
+  background: green;
+}
+
+/* Character display */
+#characters p {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+#characters button {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  background: #2196f3;
+}
+
+#characters button:hover {
+  background: #0b79d0;
+}
+
+/* Cash display */
+#cash {
+  font-weight: bold;
+  color: #2e7d32;
+}
